@@ -1,21 +1,16 @@
-﻿using System;
-using System.Security.Cryptography.X509Certificates;
+﻿using InheritanceProject;
+using System;
 
-namespace InheritanceProject
+namespace InheritancePrac31
 {
     internal class Dog : Animal
     {
         public string Color { get; set; }
 
-        public void testB()
+        public void Bark()
         {
-    //        Private();
-            Protected();
-            Public();
+            Console.WriteLine("왈왈 짓습니다.");
         }
-
-
-        public void Bark() { Console.WriteLine("왈왈 짓습니다."); }
 
     }
 }
